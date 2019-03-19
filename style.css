@@ -2,7 +2,7 @@
 body {background-color: white;}
 
 div {display: block;}
-button, input:focus {outline:0;}
+button:focus {outline:0;}
 /************************/
 /* 	    	TEXT          */
 /************************/
@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 .danger {background-color: #EC0507;} /* rouge  */
 .success {background-color: #74EC2C;} /* vert */
 .info {background-color: #33adff;} /* bleu */
+.infogang {background-color: #80ccff;} /* bleu */
+.infocool {background-color: #b3e0ff;} /* bleu */
+.infonop {background-color: #e6f5ff;} /* bleu */
+
 
 
 /************************/
@@ -81,18 +85,11 @@ h1, h2, h3, h4, h5, h6 {
 	border: 0px;
 }
 
-button:hover {
+.btn:hover {
 	cursor: pointer;
 	opacity: 0.8;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
 }
-
-input:hover {
-	cursor: pointer;
-	opacity: 0.8;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
-}
-
 
 .pill {
 	border-radius: 20px;
@@ -109,6 +106,12 @@ input:hover {
 	border: 0px;
 }
 
+.pill:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+}
+
 .ronfull {
 	border-radius: 30px;
 	height: 50px;
@@ -122,6 +125,12 @@ input:hover {
 	color: white;
 	font-size: 16px;
 	border: 0px;
+}
+
+.ronfull:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
 }
 
 
@@ -142,6 +151,11 @@ input:hover {
 	font-size: 14px;
 }
 
+.outline:hover {
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+}
+
 .rond {
 	border-radius: 12px;
 	height: 50px;
@@ -156,6 +170,10 @@ input:hover {
 	background-color: transparent;
 	color: #f96332;
 	font-size: 16px;
+}
+.rond:hover {
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
 }
 
 .small {
@@ -173,6 +191,12 @@ color: white;
 border: 0px;
 }
 
+.small:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+}
+
 .large {
 border-radius: 6px;
 height: 45px;
@@ -188,9 +212,38 @@ color: white;
 border: 0px;
 }
 
-.list {
-	height: 180px;
-	width: 600px;
-	background-color: white;
+.large:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+}
+
+/************************/
+/* 	    ........        */
+/************************/
+
+.cadre {
+	height: auto;
+	max-width: 400px;
+	border: 1px 1px 0px 1px solid #bfbfbf;
+	margin-top: 20px;
 	border: solid #bfbfbf 1px;
+}
+
+.list {
+	width: 100%;
+	height: 50px;
+	font-family: "Courier New", "Courier New", monospace, "Lucida Grande", Arial, Verdana, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: black;
+	border: 0px;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 20px;
+}
+
+.list:hover {
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
 }
