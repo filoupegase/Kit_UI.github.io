@@ -8,6 +8,6 @@
 
 <code>Nique ta mere en 3 lettres</code>
 
-<a href="/dossier/le-html-par-lui-meme-2-2-o30298">
+<a href="https://media.giphy.com/media/5w3PvBIsd5In5RC14j/giphy.gif">
 <img src="https://giphy.com/gifs/5w3PvBIsd5In5RC14j/html5" alt="un andicape"/>
 </a>
