@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="fr">
 <head>
+  <meta charset="utf-8">
+  <title>KIT_UI</title>
+
   <!-- CSS Files -->
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
-<link rel="stylesheet" href="style.css" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
-<title>KIT_UI</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+
+  <div id="app">
 
   <div class="main">
     <h1 class="title">Button</h1>
@@ -41,12 +39,27 @@
             <a href="#"><button class="btn color primary" type="button">Primary</button></a>
             <a href="#"><button class="btn color secondary" type="button">Secondary</button></a>
             <a href="#"><button class="btn color warning" type="button">Warning</button></a>
-            <a href="#"><button class="btn danger" type="button">Danger</button></a>
+            <a href="#"><button class="btn color danger" type="button">Danger</button></a>
             <a href="#"><button class="btn color success" type="button">Success</button></a>
             <a href="#"><button class="btn color info" type="button">Info</button></a>
             <a href="#"><button class="btn color dark" type="button">Dark</button></a>
             <a href="#"><button class="btn color medium-light" type="button">Medium-Light</button></a>
             <a href="#"><button class="btn color light" type="button">Light</button></a>
+          </div>
+      </div>
+      <div class="row">
+        <p class="titre">Pick Your Vue.js Button</p>
+          <div class="colback">
+            <div v-if="yesornot">
+
+                <button v-on:click="red" class="btn success" type="button">{{ good }}</button>
+
+              </div>
+            <div v-else>
+
+                <button v-on:click="green" class="btn danger" type="button">{{ notgood }}</button>
+
+              </div>
           </div>
       </div>
 
@@ -83,6 +96,23 @@
         </div>
 
     </div>
+
+    <div class="main">
+      <h1 class="title">Card</h1>
+
+        <div class="row">
+          <p class="titre"><p>{{ message }}</p></p>
+          <div>
+              <input v-model="message">
+          </div>
+        </div>
+    </div>
+
+    </div>
+
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="JS/app.js"></script>
 
 </body>
 </html>
