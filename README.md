@@ -1,5 +1,4 @@
  <h1>THP Project : Kit_UI</h1>
- <hr></hr>
 <p>Find me on GitHub page : https://filoupegase.github.io/Kit_UI.github.io/</p>
 
 <p>Projet en cours de production.</p>
